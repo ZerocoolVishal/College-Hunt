@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_computer"
+            android:title="Computer"
+            android:icon="@drawable/computer" />
+        <item
+            android:id="@+id/nav_it"
+            android:title="IT"
+            android:icon="@drawable/it" />
+        <item
+            android:id="@+id/nav_civil"
+            android:title="Civil"
+            android:icon="@drawable/civil" />
+        <item
+            android:id="@+id/nav_mechanical"
+            android:title="Mechanical"
+            android:icon="@drawable/mechanical" />
+
+        <item
+            android:id="@+id/nav_extc"
+            android:title="Electronics"
+            android:icon="@drawable/electronics"
+            />
+    </group>
+
+</menu>

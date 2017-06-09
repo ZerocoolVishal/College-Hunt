@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">College Hunt</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="decryption">Saraswati Education Society is a public charitable trust which was formed on 10 Oct 2003 by Dr Nandkumar Y Tasgaonkar. He is the main founder and Chairman of the trust. Since its inception, the trust has established ten institutions at Bhivpuri Road station, Taluka Karjat, District Raigad. The trust is running various professional courses in engineering, management and pharmacy in its institutions. All the post graduate and degree courses are approved by AICTE, UGC and DTE, and affiliated to Mumbai University. The diploma courses are recognised by the respective boards under the State Government of Maharashtra. More than eight thousand students are pursuing various educational courses under the guidance of over one thousand well qualified teaching and non- Teaching staff.</string>
+    <string name="contact">9898989898</string>
+    <string name="title">Testy Pizza</string>
+    <string name="address">Bhivpuri Road Railway Station, Village: Chandhai, Post: Nasrapur, Tal: Karjat, Dist: Raigad.</string>
+    <string name="email">contact@testypizza.com</string>
+</resources>

@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="layout.SearchFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Search College"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/dte_code"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:ems="10"
+                    android:hint="Search by DTE Code"
+                    android:inputType="number" />
+
+                <ImageButton
+                    android:id="@+id/dte_code_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/colorPrimary"
+                    android:src="@drawable/search"
+                    android:scaleType="centerInside"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="OR" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/college_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Search by College Name"
+                    android:layout_weight="8"/>
+
+                <ImageButton
+                    android:id="@+id/college_name_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/colorPrimary"
+                    android:src="@drawable/search"
+                    android:scaleType="centerInside"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="OR" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageButton
+                    android:id="@+id/com"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/computer"
+                    android:scaleType="centerCrop" />
+
+                <ImageButton
+                    android:id="@+id/it"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/it"
+                    android:scaleType="centerCrop" />
+
+                <ImageButton
+                    android:id="@+id/civil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/civil"
+                    android:scaleType="centerCrop"/>
+
+                <ImageButton
+                    android:id="@+id/mech"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/mechanical"
+                    android:scaleType="centerCrop"/>
+
+                <ImageButton
+                    android:id="@+id/extc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/electronics"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/thane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Colleges In Thane"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/mumbai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Colleges In Mumbai"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/panvel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="Colleges In Panvel"
+                android:textSize="25sp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
